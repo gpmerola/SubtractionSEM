@@ -1,0 +1,20 @@
+Package: SubtractionSEM
+Type: Package
+Title: Fast GWAS by Subtraction with Fixed Factor Loadings
+Version: 0.2.0
+Authors@R: c(
+    person("Giuseppe Pierpaolo", "Merola", email = "giuseppe.merola@kcl.ac.uk", role = c("aut", "cre")),
+    person("Jonathan R. I.", "Coleman", role = "ctb"),
+    person("Gerome", "Breen", role = "ctb"))
+Description: Vectorised estimation of variant effects for square, invertible
+    first-order factor models using the fixed-loading and sampling covariance
+    conventions of analytic GenomicSEM. Includes sequential subtraction models,
+    model diagnostics and synthetic integration tests. Intended for research.
+License: GPL-3 + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: GenomicSEM, lavaan (== 0.6-21), stats
+Remotes: GenomicSEM/GenomicSEM@6b65ca5db39fdade08b0d811477be1cdd57b5039,
+    cran/lavaan@8c44109a2856a08299e1ca71b409c3c6f2d2195a
+URL: https://github.com/gpmerola/SubtractionSEM
+BugReports: https://github.com/gpmerola/SubtractionSEM/issues
